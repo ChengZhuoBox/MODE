@@ -33,7 +33,7 @@ print(re.findall('a{1,5}b','sabaabaab'))
 #[],字符集,取消元字符的特殊功能除（\,^,-）
 print(re.findall('a[1,2,a,f,fs]','asdafsaf'))
 
-#^ in [],去反
+#^ in [],取反
 print(re.findall('[^1,2,3,4]','142487574526422314'))
 
 
